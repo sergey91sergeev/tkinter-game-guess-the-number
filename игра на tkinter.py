@@ -7,6 +7,7 @@ from tkinter import messagebox
 """Игра угадай число.
 Компьютер число загадывает, пользователь - отгадывает"""
 
+
 def bin_search(nums: list, n: int):
     """Бинарный поиск"""
     left_index = 0
@@ -65,7 +66,6 @@ def start_game():
         end_user = int(entry_question_len_list2.get())
         start = 1
         end = 2
-
 
         if start_user > end_user:
             start = end_user
